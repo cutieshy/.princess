@@ -8,7 +8,7 @@
 #|    (_,_)| \       / (_{;}_)|   | |  |  \    /  `-'`-'     /  
 #|_________|  `-...-'  '(_,_) '---' ''-'   `'-'     `._____.'   
 
-# This is cutieshy's personal zsh config file, Linux edition.
+# This is cutieshy's personal zsh config file!
 
 
 
@@ -143,5 +143,6 @@ alias hello="print 'Hello, Princess'"
 alias fetch="neofetch"
 alias pls=sudo
 alias ls="ls -l"
-alias uppy="echo 'Updating packages for you, Princess...' && sleep 1 && xbps-install -Syu"
+alias lsblk="df -Hl"
+alias uppy="echo 'Updating packages for you, Princess...' && sleep 1 && brew update && brew upgrade"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
