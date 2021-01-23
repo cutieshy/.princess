@@ -1,0 +1,23 @@
+{
+    "coc.preferences.jumpCommand": "tab drop",
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "python",
+        "markdown",
+        "go"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.mypyEnabled": true,
+    "languageserver": {
+        "go": {
+            "command": "gopls",
+            "rootPatterns": [
+                "go.mod"
+            ],
+            "trace.server": "verbose",
+            "filetypes": [
+                "go"
+            ]
+        }
+    }
+}

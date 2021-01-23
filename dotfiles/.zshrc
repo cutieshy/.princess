@@ -1,13 +1,22 @@
-# test If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+#  ____..--'   .-'''-. .---.  .---. .-------.        _______    
+# |        |  / _     \|   |  |_ _| |  _ _   \      /   __  \   
+# |   .-'  ' (`' )/`--'|   |  ( ' ) | ( ' )  |     | ,_/  \__)  
+# |.-'.'   /(_ o _).   |   '-(_{;}_)|(_ o _) /   ,-./  )        
+#    /   _/  (_,_). '. |      (_,_) | (_,_).' __ \  '_ '`)      
+#  .'._( )_ .---.  \  :| _ _--.   | |  |\ \  |  | > (_)  )  __  
+#.'  (_'o._)\    `-'  ||( ' ) |   | |  | \ `'   /(  .  .-'_/  ) 
+#|    (_,_)| \       / (_{;}_)|   | |  |  \    /  `-'`-'     /  
+#|_________|  `-...-'  '(_,_) '---' ''-'   `'-'     `._____.'   
 
-# Path to your oh-my-zsh installation.
+# This is cutieshy's personal zsh config file!
+
+
+
+# Path to oh-my-zsh
 export ZSH=~/.oh-my-zsh
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
+# Set name of the theme to load
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="superjarin"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
