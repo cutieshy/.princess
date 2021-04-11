@@ -56,7 +56,7 @@ export UPDATE_ZSH_DAYS=13
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux zsh-syntax-highlighting thefuck)
+plugins=(git zsh-syntax-highlighting thefuck)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -139,9 +139,7 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 export PATH=$PATH:/System/Volumes/Data/Library/Developer/CommandLineTools/usr/bin
 export PATH=$PATH:~/dotfiles/scripts
 
-alias hello="print 'Hello, Princess'"
-alias fetch="neofetch"
-alias pls=sudo
-alias ls="ls -l"
-alias uppy="echo 'Updating packages for you, Princess...' && sleep 1 && xbps-install -Syu"
+alias fetchy="echo 'Gathering system information... && sleep 1 && neofetch"
+alias sudo="sudo -p 'Programming socks required:'"
+alias uppy="echo 'Updating packages for you, Princess...' && sleep 1 && sudo apt update && sudo apt upgrade"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
